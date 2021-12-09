@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  .bai1{
+      display: flex;
+      margin-bottom: 50px;
+  }
+  .bai1 div{
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  .mang1{
+    display: flex;
+    background-color: red;
+    height: 400px;
+    width: 60%;
+  }
+  .mang2{
+    display: flex;
+    background-color: #f1c40f;
+    height: 200px;
+  }
+  .mang3{
+    display: flex;
+    background-color: blue;
+    height: 200px;
+  }
+  .haimang{
+      width: 40%;
+  }
+  .mang11{
+      margin-right: 15px;
+  }
+  .bai3{
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .bai3 div {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .khoi1 {
+    background-color: red;
+    height: 400px;
+    width: 100%;
+  }
+  .khoi2{
+    background-color: #f1c40f;
+    height: 400px;
+    width: 100%;
+  }
+  .khoi3 {
+    background-color: blue;
+    height: 400px;
+    width: 100%
+  }
+  .khoi11{
+      margin-right: 15px;
+  }
+  .bai3 .khoi22{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
