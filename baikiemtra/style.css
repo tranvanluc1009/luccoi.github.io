@@ -24,10 +24,13 @@ a {
   color: black;
 }
 .chitiet {
-  margin-bottom: 100px;
+  margin: auto;
   max-width: 1000px;
   text-align: center;
   font-size: 30px;
+}
+.thongtin{
+  margin: auto;
 }
 .sp {
   max-width: 1200px;
