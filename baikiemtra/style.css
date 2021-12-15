@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+}
+hr {
+  width: 50%;
+  color: rgb(0, 0, 0);
+}
+img {
+  padding: 15px;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.chitiet {
+  margin-left: 450px;
+  margin-bottom: 100px;
+  max-width: 1000px;
+  text-align: center;
+  font-size: 30px;
+}
+.sp {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  margin-bottom: 100px;
+  background-color: #7dcfb0;
+  border-radius: 7px;
+}
+.spcss {
+  width: calc(33.33333% - 30px);
+  margin: 15px;
+  background-color: #dcff18;
+  padding: 10px;
+  border-radius: 10px;
+}
+.ten {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.spcss:hover {
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
