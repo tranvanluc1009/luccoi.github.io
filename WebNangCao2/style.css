@@ -55,19 +55,46 @@ h6 {
 .address-email {
   display: flex;
   justify-content: center;
+  
 }
 .address-email input {
-  background-color: #ddd;
+  background-color:  rgb(187, 183, 183);
   border: none;
   border-bottom: 1px solid gray;
   padding-bottom: 12px;
   min-width: 320px;
+  
 }
 .maincuoi {
   padding-top: 50px;
 }
-.buttom {
+.button {
   text-align: center;
-  margin-top: 48px;
-  margin-bottom: 280px;
+  margin-top: 160px;
+  margin-bottom: 120px;
+}
+
+.button button {
+  padding: 16px 28px;
+  background-color: white;
+  border: 1px solid #aaa;
+  font-size: 16px;
+}
+.fooder {
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+}
+.fooder p {
+  display: inline-block;
+}
+.foodder {
+  padding-bottom: 50px;
+}
+.icon1 {
+  width: 15px;
+  height: 15px;
+  color: aqua;
+  position: absolute;
 }
